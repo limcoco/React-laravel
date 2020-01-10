@@ -1,0 +1,9 @@
+.mainUserInfo {
+    text-align: center;
+    margin-top: 2em;
+    height: 100%;
+    width: 100%;
+}
+#messageContent textarea {
+    width: 100%;
+}

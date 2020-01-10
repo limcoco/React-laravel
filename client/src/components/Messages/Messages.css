@@ -1,0 +1,33 @@
+.mainMessages {
+    text-align: center;
+}
+
+#messageDisplayDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+
+#messageDisplayDiv sup {
+    color: white
+}
+
+.message {
+    border: 2px solid black;
+    padding: 1em;
+    margin: 1.5em;
+    word-break: break-all;
+}
+
+
+#replyForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#replyContent textarea {
+    width: 100%;
+}
